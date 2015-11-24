@@ -11,6 +11,6 @@ function file_place(path,file_name,y_n,splices)
         end
         
     else
-        copyfile([path '/' file_name],[path '/keep_discard']);
+        copyfile([path '/' file_name],[path '/discard_calls']);
     end
 end
